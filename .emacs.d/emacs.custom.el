@@ -1,26 +1,6 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (add-to-list 'default-frame-alist '(font . "AcPlus Rainbow100 re.66 14"))
-(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-
-(add-to-list 'load-path "C:/Users/lemur/AppData/Roaming/.emacs.d/elpa")
-(add-to-list 'load-path "C:/Users/lemur/AppData/Roaming/.emacs.d/elpa/magit/lisp")
-(add-to-list 'load-path "C:/Users/lemur/AppData/Roaming/.emacs.d/elpa/disable-mouse")
-(add-to-list 'load-path "C:/Users/lemur/AppData/Roaming/.emacs.d/elpa/simpc-mode")
-(add-to-list 'load-path "C:/Users/lemur/AppData/Roaming/.emacs.d/elpa/multiple-cursors-1.4.0")
-
-(require 'magit)
-(require 'disable-mouse)
-(require 'simpc-mode)
-(require 'rust-mode)
-(require 'multiple-cursors)
-
-(with-eval-after-load 'info
-  (info-initialize)
-  (add-to-list 'Info-directory-list
-	       "C:/Users/lemur/AppData/Roaming/.emacs.d/elpa/magit/Documentation/"))
-
-
-(add-to-list 'auto-mode-alist '("\\.[hc]\\(pp\\)?\\'" . simpc-mode))
+(add-to-list 'load-path "C:/Users/lemur/AppData/Roaming/.emacs.d/emacs.local")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
