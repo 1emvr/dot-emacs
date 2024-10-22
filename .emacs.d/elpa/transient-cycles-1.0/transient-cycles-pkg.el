@@ -1,2 +1,0 @@
-;; Generated package description from transient-cycles.el  -*- no-byte-compile: t -*-
-(define-package "transient-cycles" "1.0" "Define command variants with transient cycling" '((emacs "27.1")) :commit "a5b86dd04e84e7ff1cf8c4062843fccb92991145" :authors '(("Sean Whitton" . "spwhitton@spwhitton.name")) :maintainer '("Sean Whitton" . "spwhitton@spwhitton.name") :keywords '("buffer" "window" "minor-mode" "convenience") :url "https://git.spwhitton.name/dotfiles/tree/.emacs.d/site-lisp/transient-cycles.el")
