@@ -25,7 +25,9 @@
  '(tool-bar-mode nil)
  '(truncate-lines t)
  '(truncate-partial-width-windows t)
- '(visible-bell t))
+ '(visible-bell t)
+ '(evil-mode 1)
+ '(evil-want-C-u-scroll t))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
