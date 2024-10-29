@@ -1,6 +1,9 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (add-to-list 'default-frame-alist '(font . "AcPlus Rainbow100 re.66 14"))
-(add-to-list 'load-path "C:/Users/lemur/AppData/Roaming/.emacs.d/emacs.local")
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -20,15 +23,15 @@
  '(package-check-signature 'allow-unsigned)
  '(package-selected-packages
    '(rust-mode multiple-cursors webpaste wfnames with-editor transient-cycles gnu-elpa-keyring-update dash compat gruber-darker-theme))
- '(shell-file-name "powershell.exe")
- '(tab-width 4)
+ '(shell-file-name "/usr/bin/bash")
  '(tool-bar-mode nil)
  '(truncate-lines t)
  '(truncate-partial-width-windows t)
  '(visible-bell t)
  '(winner-mode 1)
  '(evil-mode 1)
- '(evil-want-C-u-scroll t))
+ '(evil-want-C-u-scroll t)
+ '(display-time-format '"%m-%d-%Y %I:%M:%S %p"))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

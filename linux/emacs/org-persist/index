@@ -1,9 +1,0 @@
-((:container
-  ((elisp org-element--headline-cache)
-   (elisp org-element--cache))
-  :persist-file "cd/60b433-0297-4847-96bf-c57821430d5e" :associated
-  (:hash "49c9eb8b1de5530cd6fec5f28d8dea18" :file "c:/Users/lemur/AppData/Roaming/.emacs.d/site-lisp/magit/CHANGELOG" :inode 281474977101091)
-  :expiry 30 :last-access 1729581336.347446 :last-access-hr "2024-10-22T03:15:36-0400")
- (:container
-  ((index "3.1"))
-  :persist-file "92/a2b000-e7c9-4687-a80a-8870b3eb0332" :associated nil :expiry never :last-access 1729581336.353185 :last-access-hr "2024-10-22T03:15:36-0400"))
