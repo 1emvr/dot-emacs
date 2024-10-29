@@ -10,6 +10,7 @@ alias ll='ls -alh --color=auto'
 alias grep='grep --color=auto'
 
 alias alconf='nvim ~/.config/alacritty/alacritty.toml'
+alias i3conf='nvim ~/.config/i3/config'
 alias ipc='ifconfig -a'
 
 alias update='yay -S'
