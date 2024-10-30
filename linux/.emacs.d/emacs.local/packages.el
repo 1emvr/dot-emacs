@@ -9,6 +9,10 @@
 (package-initialize)
 (unless (package-installed-p 'evil)
   (package-install 'evil))
+(unless (package-installed-p 'magit)
+  (package-install 'magit))
+(unless (package-installed-p 'rust-mode)
+  (package-install 'rust-mode))
 
 (require 'magit)
 (require 'disable-mouse)
@@ -23,3 +27,7 @@
   (info-initialize)
   (add-to-list 'Info-directory-list
 	       "C:/Users/lemur/AppData/Roaming/.emacs.d/elpa/magit/Documentation/"))
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)

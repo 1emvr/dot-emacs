@@ -24,6 +24,7 @@ workspace_layout tabbed
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id nitrogen --restore
+exec xinput set-prop "SYNA8018:00 06CB:CE67 Touchpad" "libinput Tapping Enabled" 1
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.

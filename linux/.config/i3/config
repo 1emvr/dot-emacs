@@ -24,7 +24,6 @@ workspace_layout tabbed
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id nitrogen --restore
-exec xinput set-prop "SYNA8018:00 06CB:CE67 Touchpad" "libinput Tapping Enabled" 1
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -55,12 +54,17 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec "alacritty -e tmux"
+bindsym $mod+Shift+Return exec /home/lemur/4coder/test_build/4ed
+bindsym Print exec flameshot gui
+
+bindsym $mod+Control+l exec "i3lock -c 000000"
+exec "xautolock -detectsleep -time 3 -locker \"i3lock -c 000000\""
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id dmenu_run -fn 'AcPlus Rainbow100 re.66-18'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a

@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export PATH="$PATH:$HOME/4coder/test_build"
+
 alias ls='ls -a --color=auto'
 alias ll='ls -alh --color=auto'
 alias grep='grep --color=auto'
