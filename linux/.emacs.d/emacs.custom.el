@@ -1,5 +1,5 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
-(add-to-list 'default-frame-alist '(font . "AcPlus Rainbow100 re.66 18"))
+(add-to-list 'default-frame-alist '(font . "AcPlus Rainbow100 re.66 16"))
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
@@ -14,6 +14,9 @@
  '(custom-safe-themes
    '("e13beeb34b932f309fb2c360a04a460821ca99fe58f69e65557d6c1b10ba18c7" default))
  '(display-line-numbers-type 'relative)
+ '(display-time-format '"%m-%d-%Y %I:%M:%S %p")
+ '(evil-mode 1)
+ '(evil-want-C-u-scroll t)
  '(global-disable-mouse-mode nil)
  '(global-display-line-numbers-mode 1)
  '(ido-everywhere t)
@@ -23,15 +26,13 @@
  '(package-check-signature 'allow-unsigned)
  '(package-selected-packages
    '(rust-mode multiple-cursors webpaste wfnames with-editor transient-cycles gnu-elpa-keyring-update dash compat gruber-darker-theme))
+ '(scroll-bar-mode nil)
  '(shell-file-name "/usr/bin/bash")
  '(tool-bar-mode nil)
  '(truncate-lines t)
  '(truncate-partial-width-windows t)
  '(visible-bell t)
- '(winner-mode 1)
- '(evil-mode 1)
- '(evil-want-C-u-scroll t)
- '(display-time-format '"%m-%d-%Y %I:%M:%S %p"))
+ '(winner-mode 1))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

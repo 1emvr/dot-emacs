@@ -4,14 +4,14 @@
 (
  ("/home/lemur/Github/HexaneC2-pre-alpha/listener/" . "src/")
  ("/home/lemur/Github/HexaneC2-pre-alpha/server/" . "src/")
- ("/home/lemur/Github/HexaneC2-pre-alpha/" . "server/")
+ ("/home/lemur/Github/HexaneC2-pre-alpha/" . "core/")
  ("/home/lemur/Github/dot-emacs/linux/" . "emacs/")
  ("/home/lemur/Github/dot-emacs/windows/" . ".emacs.d/")
- ("/home/lemur/Github/HexaneC2-pre-alpha/core/" . "include/")
+ ("/home/lemur/Github/HexaneC2-pre-alpha/core/" . "src/")
  ("/home/lemur/Github/dot-emacs/" . "linux/")
  ("/home/lemur/.config/emacs/" . "emacs.local/")
  ("/home/lemur/Github/" . "HexaneC2-pre-alpha/")
- ("/home/lemur/" . "Documents/")
+ ("/home/lemur/" . "Github/")
  ("/home/" . "lemur/")
  ("/" . "home/")
  ("/home/lemur/.config/" . "i3/")
@@ -19,15 +19,16 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/lemur/Documents/"
  "/home/lemur/.config/i3/"
+ "/home/lemur/Github/HexaneC2-pre-alpha/core/src/"
  "/home/lemur/.emacs.d/"
+ "/home/lemur/Github/HexaneC2-pre-alpha/"
+ "/home/lemur/.config/gtk-3.0/"
+ "/home/lemur/Documents/"
  "/home/lemur/.config/emacs/"
  "/home/lemur/Github/HexaneC2-pre-alpha/server/src/"
  "/home/lemur/Github/HexaneC2-pre-alpha/listener/src/"
  "/home/lemur/Github/HexaneC2-pre-alpha/core/include/"
- "/home/lemur/Github/HexaneC2-pre-alpha/"
- "/home/lemur/Github/HexaneC2-pre-alpha/core/src/"
  "/home/lemur/Github/Intel-CET-Overview/"
  "/home/lemur/Github/"
  "/home/lemur/.config/emacs/emacs.local/"
@@ -40,29 +41,41 @@
 
 ;; ----- ido-work-file-list -----
 (
- "promise.txt"
+ "config"
  "emacs.custom.el"
+ "."
+ "promise.txt"
  "main.rs"
  "instance.rs"
  "types.rs"
  "memory.hpp"
  "objects.cpp"
  "memory.cpp"
- "."
- "matteo.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/lemur/.config/i3/" (26401 49663 851856 533000) "config" "config~" "../" "./")
+
+ ("/home/lemur/.emacs.d/" (26401 47444 142405 168000) "ido.last" "ido.last~" "emacs.custom.el" "emacs.custom.el~" "url/" "transient/" "init.el" "emacs.local/" "elpa/" "auto-save-list/" "../" "./")
+
+ ("/home/lemur/Github/HexaneC2-pre-alpha/core/" (26401 47442 109054 549000) "src/" "ntimports.hpp" "monolith.hpp" "include/" "implant.ld" "dotnet.hpp" "corelib.hpp" "../" "./")
+
+ ("/home/lemur/Github/HexaneC2-pre-alpha/core/src/" (26401 47600 704475 200000) "utils.cpp" "threads.cpp" "stream.cpp" "stdlib.cpp" "start.asm" "sleep.cpp" "process.cpp" "peers.cpp" "parser.cpp" "opsec.cpp" "objects.cpp" "network.cpp" "memory.cpp" "inject.cpp" "dispatch.cpp" "commands.cpp" "cipher.cpp" "base.cpp" "../" "./")
+
+ ("/home/lemur/Github/HexaneC2-pre-alpha/" (26401 47442 109054 549000) "server/" "loader/" "listener/" "json/" "inject/" "infra/" "core/" "configs/" "commands/" "build/" "README.md" "LICENSE" "CMakeLists.txt" ".gitignore" ".git/" "../" "./")
+
+ ("/home/lemur/Github/" (26401 47416 668864 465000) "HexaneC2-pre-alpha/" "pass-git-helper/" "yay/" "dot-emacs/" "../" "./")
+
+ ("/home/lemur/" (26401 47195 796767 749000) ".gtkrc-2.0" ".icons/" ".themes/" "Documents/" ".password-store/" ".gitconfig" ".gnupg/" ".tmux.conf" "Pictures/" ".fonts/" ".bashrc" ".emacs.d/" "Github/" "Downloads/" ".bash_history" ".mozilla/" ".cache/" ".local/" ".config/" ".bash_profile" ".bash_logout" "../" "./")
+
+ ("/home/lemur/.config/gtk-3.0/" (26401 47195 810100 793000) "settings.ini" "../" "./")
+
+ ("/home/lemur/.config/" (26401 45134 838223 288000) "pulse/" "nvim/" "pass-git-helper/" "nitrogen/" "gtk-2.0/" "alacritty/" "yay/" "go/" "dconf/" "gtk-3.0/" "i3/" "systemd/" "../" "./")
+
+ ("/home/lemur/Github/dot-emacs/" (26401 12418 268077 335000) "windows/" "linux/" "README.md" ".git/" "../" "./")
+
  ("/home/lemur/Documents/" (26401 13696 739539 319000) "promise.txt" "promise.txt~" "../" "./")
-
- ("/home/lemur/.config/i3/" (26401 12066 800609 662000) "config" "../" "./")
-
- ("/home/lemur/.config/" (26401 13372 551758 643000) "nvim/" "pass-git-helper/" "nitrogen/" "gtk-2.0/" "alacritty/" "yay/" "go/" "dconf/" "gtk-3.0/" "i3/" "systemd/" "../" "./")
-
- ("/home/lemur/" (26401 13257 384710 7000) "Documents/" ".password-store/" ".gitconfig" ".gnupg/" ".tmux.conf" "Pictures/" ".fonts/" ".bashrc" ".emacs.d/" "Github/" "Downloads/" ".bash_history" ".mozilla/" ".cache/" ".local/" ".config/" ".bash_profile" ".bash_logout" "../" "./")
-
- ("/home/lemur/.emacs.d/" (26401 12256 613846 687000) "ido.last" "ido.last~" "emacs.custom.el" "emacs.custom.el~" "transient/" "init.el" "emacs.local/" "elpa/" "auto-save-list/" "../" "./")
 
  ("/home/lemur/.config/emacs/" (26400 58044 105176 370000) "emacs.custom.el" "emacs.custom.el~" "init.el" "tutorial/" "transient/" "site-lisp/" "org-persist/" "ido.last" "emacs.local/" "auto-save-list/" "../" "./")
 
@@ -74,21 +87,13 @@
 
  ("/home/lemur/Github/HexaneC2-pre-alpha/server/" (26391 44736 844988 697000) "Cargo.toml" "Cargo.lock" "src/" "../" "./")
 
- ("/home/lemur/Github/HexaneC2-pre-alpha/" (26400 59354 380237 77000) "listener/" "README.md" "cmake-build-debug/" ".idea/" "CMakeLists.txt" "server/" "loader/" "json/" "inject/" "infra/" "core/" "configs/" "commands/" "build/" "LICENSE" ".gitignore" ".git/" "../" "./")
-
- ("/home/lemur/Github/HexaneC2-pre-alpha/core/src/" (26400 57905 329568 729000) "objects.cpp" "memory.cpp" "utils.cpp" "threads.cpp" "stream.cpp" "stdlib.cpp" "sleep.cpp" "process.cpp" "peers.cpp" "parser.cpp" "opsec.cpp" "network.cpp" "modules.cpp" "inject.cpp" "dispatch.cpp" "commands.cpp" "cipher.cpp" "base.cpp" "start.asm" "../" "./")
-
  ("/home/lemur/Github/HexaneC2-pre-alpha/core/include/" (26400 57646 718040 485000) "objects.hpp" "stream.hpp" "peers.hpp" "parser.hpp" "network.hpp" "names.hpp" "modules.hpp" "memory.hpp" "commands.hpp" "cipher.hpp" "base.hpp" "stdlib.hpp" "utils.hpp" "threads.hpp" "sleep.hpp" "process.hpp" "opsec.hpp" "inject.hpp" "dispatch.hpp" "../" "./")
-
- ("/home/lemur/Github/HexaneC2-pre-alpha/core/" (26400 57646 708040 469000) "monolith.hpp" "dotnet.hpp" "ntimports.hpp" "implant.ld" "src/" "include/" "corelib.hpp" "../" "./")
 
  ("/home/lemur/Github/Intel-CET-Overview/" (26399 36265 652558 396000) "main.cpp" "main.cpp~" "matteo.cpp" ".obsidian/" "README.md" ".git/" "../" "./")
 
  ("/home/lemur/Github/VEHHook/" (26399 25776 694684 335000) "#hook.cpp#" "hook.cpp" "README.md" ".git/" "../" "./")
 
  ("/home/lemur/.config/emacs/emacs.local/" (26399 25995 708640 282000) "packages.el" "../" "./")
-
- ("/home/lemur/Github/" (26399 26379 504857 502000) "Intel-CET-Overview/" "VEHHook/" "dot-emacs/" "private_research/" "HexaneC2-pre-alpha/" "../" "./")
 
  ("/home/lemur/Github/dot-emacs/linux/emacs/" (26399 25690 282248 961000) "tutorial/" "transient/" "site-lisp/" "org-persist/" "init.el" "ido.last" "emacs.local/" "emacs.custom.el" "auto-save-list/" "../" "./")
 
@@ -105,8 +110,6 @@
  ("/home/lemur/Github/dot-emacs/windows/.emacs.d/emacs.local/" (26391 44378 130936 946000) "packages.el" "packages.el~" "simpc-mode.el" "../" "./")
 
  ("/home/lemur/Github/dot-emacs/linux/" (26391 39164 403676 570000) "emacs/" "../" "./")
-
- ("/home/lemur/Github/dot-emacs/" (26391 39088 818756 596000) "linux/" "windows/" "README.md" ".git/" "../" "./")
 
  ("/home/" (26387 34255 314723 233000) "lemur/" "../" "./")
 
