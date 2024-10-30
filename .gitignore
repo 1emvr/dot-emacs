@@ -1,0 +1,11 @@
+.idea
+target
+CMakeLists.txt
+cmake-build-debug
+payload/*
+
+*/.idea
+*/target
+*/CMakeLists.txt
+*/cmake-build-debug
+*/payload/*
