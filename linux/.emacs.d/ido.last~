@@ -11,16 +11,14 @@
  ("/home/lemur/Github/dot-emacs/" . "linux/")
  ("/home/lemur/.config/emacs/" . "emacs.local/")
  ("/home/lemur/Github/" . "HexaneC2-pre-alpha/")
- ("/home/lemur/" . "Documents/")
+ ("/home/lemur/" . ".emacs.d/")
  ("/home/" . "lemur/")
  ("/" . "home/")
- ("/home/lemur/.config/" . "i3/")
+ ("/home/lemur/.config/" . "emacs/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/lemur/Documents/"
- "/home/lemur/.config/i3/"
  "/home/lemur/.emacs.d/"
  "/home/lemur/.config/emacs/"
  "/home/lemur/Github/HexaneC2-pre-alpha/server/src/"
@@ -40,7 +38,6 @@
 
 ;; ----- ido-work-file-list -----
 (
- "promise.txt"
  "emacs.custom.el"
  "main.rs"
  "instance.rs"
@@ -50,21 +47,18 @@
  "memory.cpp"
  "."
  "matteo.cpp"
+ "main.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/lemur/Documents/" (26401 13696 739539 319000) "promise.txt" "promise.txt~" "../" "./")
-
- ("/home/lemur/.config/i3/" (26401 12066 800609 662000) "config" "../" "./")
-
- ("/home/lemur/.config/" (26401 13372 551758 643000) "nvim/" "pass-git-helper/" "nitrogen/" "gtk-2.0/" "alacritty/" "yay/" "go/" "dconf/" "gtk-3.0/" "i3/" "systemd/" "../" "./")
-
- ("/home/lemur/" (26401 13257 384710 7000) "Documents/" ".password-store/" ".gitconfig" ".gnupg/" ".tmux.conf" "Pictures/" ".fonts/" ".bashrc" ".emacs.d/" "Github/" "Downloads/" ".bash_history" ".mozilla/" ".cache/" ".local/" ".config/" ".bash_profile" ".bash_logout" "../" "./")
-
  ("/home/lemur/.emacs.d/" (26401 12256 613846 687000) "ido.last" "ido.last~" "emacs.custom.el" "emacs.custom.el~" "transient/" "init.el" "emacs.local/" "elpa/" "auto-save-list/" "../" "./")
 
+ ("/home/lemur/" (26401 12231 329950 221000) ".tmux.conf" "Pictures/" ".fonts/" ".gitconfig" ".bashrc" ".emacs.d/" "Github/" "Downloads/" ".bash_history" ".mozilla/" ".cache/" ".local/" ".config/" ".bash_profile" ".bash_logout" "../" "./")
+
  ("/home/lemur/.config/emacs/" (26400 58044 105176 370000) "emacs.custom.el" "emacs.custom.el~" "init.el" "tutorial/" "transient/" "site-lisp/" "org-persist/" "ido.last" "emacs.local/" "auto-save-list/" "../" "./")
+
+ ("/home/lemur/.config/" (26401 3519 509083 447000) "kglobalshortcutsrc" "Trolltech.conf" "gtkrc-2.0" "gtkrc" "kwinrc" "kded6rc" "bluedevilglobalrc" "plasma-org.kde.plasma.desktop-appletsrc" "ksmserverrc" "kcalcrc" "kconf_updaterc" "htop/" "jgit/" "spectaclerc" "katevirc" "katerc" "kate/" "emacs/" "xdg-desktop-portal-kderc" "kdeglobals" "obsidian/" "plasmarc" "plasmashellrc" "dolphinrc" "QtProject.conf" "drkonqirc" "systemsettingsrc" "kritadisplayrc" "kritarc" "pass-git-helper/" "systemmonitorrc" "JetBrains/" "powerdevilrc" "trashrc" "yay/" "session/" "kfontinstuirc" "fontconfig/" "alacritty/" "konsolesshconfig" "konsolerc" "kwalletrc" "chromium/" "powermanagementprofilesrc" "kded5rc" "kactivitymanagerd-statsrc" "KDE/" "kactivitymanagerdrc" "gtk-4.0/" "plasma-welcomerc" "pulse/" "gtk-3.0/" "kde.org/" "ktimezonedrc" "dconf/" "xsettingsd/" "libaccounts-glib/" "kwinoutputconfig.json" "baloofilerc" "plasma-localerc" "kdedefaults/" "user-dirs.locale" "user-dirs.dirs" "systemd/" "../" "./")
 
  ("/home/lemur/Github/HexaneC2-pre-alpha/server/src/" (26401 1322 461939 402000) "utils.rs" "types.rs" "stream.rs" "builder.rs" "main.rs" "instance.rs" "error.rs" "binary.rs" "rstatic.rs" "parser.rs" "interface.rs" "cipher.rs" "../" "./")
 
