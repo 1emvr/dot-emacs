@@ -1,9 +1,6 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (set-frame-font "AcPlus Rainbow100 re.66 14")
 
-(setq inhibit-startup-message t) 
-(setq initial-scratch-message nil)
-
 (package-initialize)
 (require 'package)
 (add-to-list 'package-archives
