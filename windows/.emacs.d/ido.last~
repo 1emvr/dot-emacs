@@ -2,26 +2,55 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/lemur/Github/HexaneC2-pre-alpha/core/" . "src/")
+ ("c:/Users/lemur/Github/HexaneC2-pre-alpha/" . "core/")
+ ("c:/Users/lemur/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/lemur/AppData/" . "Roaming/")
+ ("c:/Users/lemur/Github/" . "HexaneC2-pre-alpha/")
+ ("c:/Users/lemur/" . "Github/")
  ("c:/Users/install_account/AppData/Roaming/" . ".emacs.d/")
  ("c:/Users/install_account/AppData/" . "Roaming/")
  ("c:/Users/install_account/" . "AppData/")
- ("c:/Users/" . "install_account/")
+ ("c:/Users/" . "lemur/")
  ("c:/" . "Users/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/lemur/Github/HexaneC2-pre-alpha/"
+ "c:/Users/lemur/AppData/Roaming/.emacs.d/"
+ "c:/Users/lemur/Github/HexaneC2-pre-alpha/core/src/"
  "c:/Users/install_account/AppData/Roaming/.emacs.d/"
  "c:/Program Files/Emacs/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- 
+ "init.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/lemur/Github/" (26408 54574 0 0) "LTSC-Add-MicrosoftStore/" "HexaneC2-pre-alpha/" "../" "./")
+
+ ("c:/Users/lemur/AppData/Roaming/.emacs.d/" (26408 53672 0 0) "tutorial/" "transient/" "org-persist/" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "../" "./")
+
+ ("c:/Users/lemur/Github/HexaneC2-pre-alpha/core/src/" (26408 53579 0 0) "utils.cpp" "threads.cpp" "stream.cpp" "stdlib.cpp" "start.asm" "sleep.cpp" "process.cpp" "peers.cpp" "parser.cpp" "opsec.cpp" "objects.cpp" "network.cpp" "modules.cpp" "memory.cpp" "inject.cpp" "dispatch.cpp" "commands.cpp" "cipher.cpp" "base.cpp" "../" "./")
+
+ ("c:/Users/lemur/Github/HexaneC2-pre-alpha/core/" (26408 52927 0 0) "src/" "scratchpad.cpp" "ntimports.hpp" "monolith.hpp" "include/" "implant.ld" "dotnet.hpp" "corelib.hpp" "../" "./")
+
+ ("c:/Users/lemur/AppData/Roaming/" (26408 52463 0 0) "SystemInformer/" "Mozilla/" "Microsoft/" "Adobe/" ".emacs.d/" "../" "./")
+
+ ("c:/Users/lemur/AppData/" (26408 51720 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/lemur/Github/HexaneC2-pre-alpha/" (26408 53036 0 0) "server-client/" "README.md" "loader/" "listener/" "LICENSE" "json/" "inject/" "infra/" "core/" "configs/" "commands/" "CMakeLists.txt" "build/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/lemur/" (26408 53008 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.ini" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Github/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".gitconfig" "../" "./")
+
+ ("c:/Users/" (26408 51720 0 0) "Public/" "lemur/" "install_account/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
+
+ ("c:/Program Files/" (26408 52404 0 0) "WindowsPowerShell/" "WindowsApps/" "Windows Sidebar/" "Windows Security/" "Windows Portable Devices/" "Windows Photo Viewer/" "Windows NT/" "Windows Multimedia Platform/" "Windows Media Player/" "Windows Mail/" "Windows Defender Advanced Threat Protection/" "Windows Defender/" "Uninstall Information/" "SystemInformer/" "msedge_installer.log" "MsEdgeCrashpad/" "Mozilla Firefox/" "ModifiableWindowsApps/" "Microsoft Visual Studio/" "Microsoft SQL Server/" "Lenovo/" "Internet Explorer/" "Git/" "Everything/" "Emacs/" "dotnet/" "desktop.ini" "Common Files/" "Application Verifier/" "Alacritty/" "7-Zip/" "../" "./")
+
  ("c:/Users/install_account/AppData/Roaming/.emacs.d/" (26408 50185 0 0) "tutorial/" "transient/" "packages.el" "org-persist/" "init.el~" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "../" "./")
 
  ("c:/Users/install_account/AppData/Roaming/" (26408 46383 0 0) "Visual Studio Setup/" "Mozilla/" "Microsoft/" "Everything/" "Adobe/" ".emacs.d/" "../" "./")
@@ -29,10 +58,6 @@
  ("c:/Users/install_account/AppData/" (26409 5700 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
 
  ("c:/Users/install_account/" (26408 45258 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.ini" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Github/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" "3D Objects/" ".templateengine/" ".dotnet/" "../" "./")
-
- ("c:/Users/" (26408 43082 0 0) "Public/" "install_account/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
-
- ("c:/Program Files/" (26408 46382 0 0) "WindowsPowerShell/" "WindowsApps/" "Windows Sidebar/" "Windows Security/" "Windows Portable Devices/" "Windows Photo Viewer/" "Windows NT/" "Windows Multimedia Platform/" "Windows Media Player/" "Windows Mail/" "Windows Defender Advanced Threat Protection/" "Windows Defender/" "Uninstall Information/" "msedge_installer.log" "MsEdgeCrashpad/" "Mozilla Firefox/" "ModifiableWindowsApps/" "Microsoft Visual Studio/" "Microsoft SQL Server/" "Lenovo/" "Internet Explorer/" "Git/" "Everything/" "Emacs/" "dotnet/" "desktop.ini" "Common Files/" "Application Verifier/" "7-Zip/" "../" "./")
 
  ("c:/Program Files/Emacs/" (26408 44778 0 0) "Uninstall.exe" "emacs-29.4/" "../" "./")
 )
