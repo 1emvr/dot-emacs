@@ -60,6 +60,7 @@ tiling_drag modifier titlebar
 bindsym $mod+x exec i3lock --color 000000
 bindsym $mod+e exec thunar
 bindsym $mod+Return exec "alacritty -e tmux"
+bindsym Control+Shift+Escape exec "alacritty -e htop"
 bindsym $mod+Shift+Return exec /home/lemur/4coder/test_build/4ed
 bindsym Print exec flameshot gui
 
