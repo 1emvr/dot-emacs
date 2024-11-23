@@ -28,6 +28,7 @@ exec --no-startup-id ~/.screenlayout/hdmi1.sh
 
 default_border pixel 0
 for_window [class="Thunar" instance="thunar"] floating enable, move position center, exec --no-startup-id ~/.scripts/thunar_size.sh
+for_window [class="kcalc" instance="kcalc"] floating enable, move position center, exec --no-startup-id ~/.scripts/thunar_size.sh
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -60,6 +61,7 @@ tiling_drag modifier titlebar
 bindsym $mod+x exec i3lock --color 000000
 bindsym $mod+e exec thunar
 bindsym $mod+Return exec "alacritty -e tmux"
+bindsym $mod+c exec "kcalc"
 bindsym Control+Shift+Escape exec "alacritty -e htop"
 bindsym $mod+Shift+Return exec /home/lemur/4coder/test_build/4ed
 bindsym Print exec flameshot gui
