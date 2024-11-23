@@ -26,6 +26,9 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id ~/.screenlayout/hdmi1.sh
 
+default_border pixel 0
+for_window [class="Thunar" instance="thunar"] floating enable, move position center, exec --no-startup-id ~/.scripts/thunar_size.sh
+
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -55,6 +58,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+x exec i3lock --color 000000
+bindsym $mod+e exec thunar
 bindsym $mod+Return exec "alacritty -e tmux"
 bindsym $mod+Shift+Return exec /home/lemur/4coder/test_build/4ed
 bindsym Print exec flameshot gui
@@ -108,7 +112,7 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+i layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
