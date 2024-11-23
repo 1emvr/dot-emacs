@@ -13,7 +13,7 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:AcPlus ToshibaSat 8x16 16
+font pango:Ac437 ToshibaSat 8x16 16
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -70,7 +70,7 @@ exec "xautolock -detectsleep -time 3 -locker \"i3lock -c 000000\""
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+space exec --no-startup-id dmenu_run -fn 'AcPlus ToshibaSat 8x16'
+bindsym $mod+space exec --no-startup-id rofi -show drun -fn 'AcPlus ToshibaSat 8x16-18'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
