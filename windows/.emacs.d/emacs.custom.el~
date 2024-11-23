@@ -1,0 +1,50 @@
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(add-to-list 'default-frame-alist '(font . "AcPlus Rainbow100 re.66 16"))
+
+(custom-set-variables
+ '(custom-enabled-themes '(gruber-darker))
+ '(custom-safe-themes
+   '("e13beeb34b932f309fb2c360a04a460821ca99fe58f69e65557d6c1b10ba18c7" default))
+ '(global-display-line-numbers-mode 1)
+ '(display-line-numbers-type 'relative)
+ '(inhibit-splash-screen t)
+ '(evil-mode 1)
+ '(evil-want-C-u-scroll t)
+ '(ido-everywhere t)
+ '(ido-mode 'both nil (ido))
+ '(ido-show-dot-for-dired t)
+ '(menu-bar-mode nil)
+ '(package-check-signature 'allow-unsigned)
+ '(package-selected-packages
+   '(rust-mode multiple-cursors webpaste wfnames with-editor transient-cycles gnu-elpa-keyring-update dash compat gruber-darker-theme))
+ '(scroll-bar-mode nil)
+ '(shell-file-name "/usr/bin/bash")
+ '(tool-bar-mode nil)
+ '(truncate-lines t)
+ '(truncate-partial-width-windows t)
+ '(electric-pair-mode 1)
+ '(visible-bell t)
+ '(whitespace-style
+   '(face trailing tabs spaces spaces space-mark tab-mark newline-mark))
+ '(winner-mode 1))
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
+(setq c-default-stype "linux"
+      c-basic-offset 4)
+
+(require 'color)
+(let* ((ws-lighten 30)
+       (ws-color (color-lighten-name "#000000" ws-lighten))))
+
+(custom-set-faces
+ '(whitespace-newline                ((t (:foreground, ws-color))))
+ '(whitespace-missing-newline-at-eof ((t (:foreground, ws-color))))
+ '(whitespace-space                  ((t (:foreground, ws-color))))
+ '(whitespace-space-after-tab        ((t (:foreground, ws-color))))
+ '(whitespace-space-before-tab       ((t (:foreground, ws-color))))
+ '(whitespace-tab                    ((t (:foreground, ws-color))))
+ '(whitespace-trailing               ((t (:foreground, ws-color)))))
+
+
