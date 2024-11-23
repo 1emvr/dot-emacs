@@ -32,12 +32,12 @@ dimensions = { columns=180, lines=50 }
 
 [font]
 
-normal.family = "AcPlus Rainbow100 re.66"
-bold.family = "AcPlus Rainbow100 re.66"
-italic.family = "AcPlus Rainbow100 re.66"
-bold_italic.family = "AcPlus Rainbow100 re.66"
+normal.family = "Ac437 ToshibaSat 9x16"
+bold.family = "Ac437 ToshibaSat 9x16"
+italic.family = "Ac437 ToshibaSat 9x16"
+bold_italic.family = "Ac437 ToshibaSat 9x16"
 
-size = 14.0
+size = 10.0
 
 # Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
 # Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
